@@ -10,4 +10,5 @@ function shipCard ({ data }) {
      );
 }
 
+
 export default shipCard;

@@ -4,6 +4,7 @@ async function getAllStarships(setData) {
     let shipList = await fetch(api)
     let ship = await shipList.json()
     setData(ship.results)
+    
 }
 
 export default getAllStarships;

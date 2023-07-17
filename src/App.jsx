@@ -11,7 +11,7 @@ function App() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    getAllStarships(setData)
+    getAllStarships(setData) 
   },[])
 
   
